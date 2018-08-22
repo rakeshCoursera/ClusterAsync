@@ -1,0 +1,22 @@
+{
+  "name": "cluster_service",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "nodemon server.js"
+  },
+  "dependencies": {
+    "cluster": "^0.7.7",
+    "express": "4.13.1",
+    "mongoose": "^4.13.9",
+    "os": "^0.1.1"
+  },
+  "devDependencies": {
+    "eslint": "4.15.0",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-plugin-import": "2.8.0",
+    "nodemon": "1.9.1"
+  }
+}
